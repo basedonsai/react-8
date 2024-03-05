@@ -1,0 +1,83 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #EFF396;
+  padding: 30px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"], select {
+  padding: 10px;
+  font-size: 17px;
+  border: 2px solid #333; 
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  background-color: #0f9d58;
+  color: white;
+}
+
+button:hover {
+  background-color: #0a7e40;
+}
+
+.tasks {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 3ch;
+}
+
+.task {
+  background-color: #87A922;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3ch;
+
+}
+
+button.delete {
+  width: 5em;
+  margin: auto;
+  right: 10px;
+  top: 20px;
+  background-color: #db4437;
+}
+
+button.delete:hover {
+  background-color: #a52714;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
